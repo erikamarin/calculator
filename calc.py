@@ -30,12 +30,13 @@ def mult(a, b):
 # Divide function
 # a -- dividend
 # b -- divisor
+#
 def div(a, b):
     return a / b
-<<<<<<< HEAD
+#modulus function
 def mod(a, b):
 	return a%b
-=======
+
 
 #Exponent function
 def exp(a,b):
