@@ -68,7 +68,7 @@ while (True):
 
     # decide function
     if (op != None):
-		if (op == "+"):
+        if (op == "+"):
             print "Sum: ", add(a, b)
         elif (op == "-"):
             print "Difference: ", sub(a, b)
@@ -76,9 +76,9 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
-		elif (op == "%"):
+        elif (op == "%"):
 			print "remainder: ", mod(a, b)
-		elif (op == "**"):
+        elif (op == "**"):
 			print "Product: ", exp(a, b)
         else:
             print "Invalid operation..."
